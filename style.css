@@ -40,7 +40,11 @@ body{
   color: #737373;
 }
 
-.modal img{
+#slide-one{
+
+}
+
+#slide-one img{
   width: 100%;
 }
 
@@ -59,9 +63,47 @@ body{
   margin-right: 3vw;
 }
 
-.right-modal-button{
+#right-modal-button{
   margin-left: 3vw;
 }
 
-.slide-one{
+#slide-two{
+  display: none;
+}
+
+#slide-two img{
+  max-height: 59.5vh;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#slide-three{
+  display: none;
+}
+
+#slide-three img{
+  width: 100%;
+  margin-bottom: 3.5%;
+}
+
+#slide-four{
+  display: none;
+}
+
+#slide-four img{
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+#slide-five{
+  display: none;
+}
+
+#slide-five img{
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+#slide-five span{
+  color: #3acc6c;
 }

@@ -10,12 +10,28 @@
     <script src="script.js"></script>
     <div class="container">
       <div class="modal">
-        <div class="slide-one">
+        <div id="slide-one">
           <img src="img/undraw_to_do_xvvc.svg" alt="">
           <p>Welcome to Facite, a to-do web app for the 21st century.</p>
         </div>
-        <button type="button" class="left-modal-button" onclick="showDiv()">Skip</button>
-        <button type="button" class="right-modal-button">Next</button>
+        <div id="slide-two">
+          <img src="img/undraw_modern_life_u1ev.svg" alt="">
+          <p>Our lives today are busier than ever before.</p>
+        </div>
+        <div id="slide-three">
+          <img src="img/undraw_schedule_pnbk.svg" alt="">
+          <p>So we've created a way to help you organise your life.</p>
+        </div>
+        <div id="slide-four">
+          <img src="img/undraw_choice_9385.svg" alt="">
+          <p>So you know exactly what to do</p>
+        </div>
+        <div id="slide-five">
+          <img src="img/undraw_working_late_pukg.svg" alt="">
+          <p>The only thing left now is to <span>do it</span></p>
+        </div>
+        <button type="button" class="left-modal-button">Skip</button>
+        <button type="button" id="right-modal-button" onclick="nextSlide()">Next</button>
       </div>
       <!--<div class="main-panel">
       </div>-->

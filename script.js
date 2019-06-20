@@ -1,8 +1,11 @@
 var x = 0;
 
 function showModal(){
-  document.getElementById('modal').style.display = "block";
-  document.getElementById('modal-overlay').style.display = "block";
+  if(!localStorage.noFirstVisit){
+    document.getElementById('modal').style.display = "block";
+    document.getElementById('modal-overlay').style.display = "block";
+    localStorage.noFirstVisit = "1";
+  }
 }
 
 function nextSlide() {

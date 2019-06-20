@@ -21,6 +21,8 @@ body{
   height: 90vh;
   border-radius: 20px;
   display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: #737373;
 }
 
 #modal{
@@ -118,4 +120,15 @@ body{
 
 #slide-five span{
   color: #3acc6c;
+}
+
+.left-sidebar{
+  width: 15%;
+  height: 100%;
+  border-right: .2vw solid #ff6584;
+}
+
+.left-sidebar p{
+  margin-left: 2vw;
+  font-size: 1.5vw;
 }

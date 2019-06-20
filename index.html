@@ -6,10 +6,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="showModal()">
     <script src="script.js"></script>
     <div class="container">
-      <div class="modal">
+      <div id="modal">
         <div id="slide-one">
           <img src="img/undraw_to_do_xvvc.svg" alt="">
           <p>Welcome to Facite, a to-do web app for the 21st century.</p>
@@ -33,8 +33,9 @@
         <button type="button" class="left-modal-button">Skip</button>
         <button type="button" id="right-modal-button" onclick="nextSlide()">Next</button>
       </div>
-      <!--<div class="main-panel">
-      </div>-->
+      <div id="modal-overlay"></div>
+      <div class="main-panel">
+      </div>
     </div>
   </body>
 </html>

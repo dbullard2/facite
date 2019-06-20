@@ -1,5 +1,10 @@
 var x = 0;
 
+function showModal(){
+  document.getElementById('modal').style.display = "block";
+  document.getElementById('modal-overlay').style.display = "block";
+}
+
 function nextSlide() {
   if (x == 0) {
     document.getElementById('slide-one').style.display = "none";
@@ -17,5 +22,9 @@ function nextSlide() {
     document.getElementById('slide-four').style.display = "none";
     document.getElementById('slide-five').style.display = "block";
     document.getElementById('right-modal-button').textContent = "Finish";
+    x++;
+  } else if(x == 4){
+    document.getElementById('modal').style.display = "none";
+    document.getElementById('modal-overlay').style.display = "none";
   }
 }
